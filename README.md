@@ -1,1 +1,25 @@
-my first read me firl
+### African - Lingo 
+Our mission's focus for this trimester is education and our project is to help anyone learn and understand diverse African lingos and cultures. This project intends to help those who feel misplaced in a different culture and attempt to integrate into the culture accordingly. The project is essential for us as a team because we understand that we all come from different cultures, and what better way to bond as a team than by learning about our languages?
+
+
+# How to use the project 
+In order to Work with our project file, clone the project using 
+
+`git clone https://github.com/rapreala/African-Lingo.git`
+
+then Create a virtual env 
+`python -m venv env`
+
+then activate the virtual env, if you are using Linux, use the first commands, if you are using windows, then use the second command. 
+
+`source env/bin/activate`
+
+`source env/scripts/activate`
+
+
+then install the required files, the google translate, package for python, 
+`pip install -r requirements.txt`
+
+
+
+
