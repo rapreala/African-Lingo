@@ -8,5 +8,12 @@ lusoga = {
     'welcome one': 'Nsangaire',
     'Alright': 'Kale',
     'glad to see you': 'Tusangaire okukubona',
-    'Please have a seat': 'Akatebe kako'
+    'Please have a seat': 'Akatebe kako',
+    'Pineapple': 'Enanhasi',
+    'Papaya': 'Eyipapaali',
+    'Yellow banana': 'Amenvu',
+    'Bananas': 'Amatooke',
+    'Plantain': 'Gonja',
+    'Mango': 'Omuyembe',
+
 }
