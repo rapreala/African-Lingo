@@ -8,5 +8,5 @@ name = input("To get Started, Please Tell us your name: ")
 print(f'''
     Welcome {name} 
     In- order for us to go on, 
-    Please you are going choose a   
+    Please you are going choose a language you want to continue with  
     ''')
