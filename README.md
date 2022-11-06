@@ -22,6 +22,8 @@ If you are using Linux, use the first command, if you are using windows, then us
 then install the required files, the google translate, package for python, 
 `pip install -r requirements.txt`
 
-
+After installing all the required Packages, 
+the main app runs in the `main.py` so in order to run it, just start by running
+`python main.py`
 
 
