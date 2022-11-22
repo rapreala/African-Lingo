@@ -53,8 +53,6 @@ print(
 name = input("To get Started, Please Tell us your name: ")
 
 
-
-
 choice = int(input(f'''
     Welcome {name}
     Please Choose a language of your choice to get started.
