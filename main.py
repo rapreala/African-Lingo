@@ -82,4 +82,19 @@ def Main():
             return Main()
 
 
-Main()
+if choice == 1:
+    result = Main()
+    if result == 0:
+        print(
+            f'''
+            Thank you so much {name} for using our platform today
+            Have a beautiful day . 
+            '''
+        )
+else:
+    print(
+            f'''
+            Thank you so much {name} for using our platform today
+            Have a beautiful day . 
+            '''
+        )
