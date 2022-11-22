@@ -26,7 +26,6 @@ def translate_lang(word,language):
     ''' runs the modules and functions that run the langs '''
     lang = context[str(language)]
     result = translator.translate(text=word, dest=lang)
-    
     return result
 
 

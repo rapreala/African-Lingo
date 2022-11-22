@@ -21,7 +21,9 @@ lan_supported = {
         12 : 'xhosa',
         13 : 'Yoruba', 
         14 : 'Zulu',
-    }
+}
+
+
 
 print(
     '''
@@ -33,7 +35,7 @@ print(
 
 name = input("To get Started, Please Tell us your name: ")
 
-choice = int(input('''
+choice = int(input(f'''
     Welcome {name}
     Please Choose a language of your choice to get started.
     
@@ -54,14 +56,17 @@ if choice == 1:
         Please choose the language you want : '''))
     lang = lan_supported[lang_chose]
     word = str(input(f"Enter an English word to translate to {lang}: "))
+    
+    
+    cont = int(input("Press 1 to continue or 0 to exit()"))
     result = translate_lang(word, lang_chose)
     print(result.text)
 else:
-    print('''
+    print(f'''
         We are sad to see you go {name}. 
         Have a wonderful Day
     '''  
-)
+    )
 
 
 
